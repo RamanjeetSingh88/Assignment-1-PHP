@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t4.ftcdn.net/jpg/02/33/60/53/360_F_233605359_NlDQuxd4GlouZAUQRUd2YWI5zhC2Lt5Z.jpg");
+}
+
+.header, .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navbar-brand{
+    margin-left: 40px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px ;
+}
+nav ul a{
+    margin-right: 16px ;
+    text-decoration: none;
+    color: #fff;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}

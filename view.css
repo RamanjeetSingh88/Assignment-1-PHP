@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t4.ftcdn.net/jpg/02/33/60/53/360_F_233605359_NlDQuxd4GlouZAUQRUd2YWI5zhC2Lt5Z.jpg");
+}
+
+.header, .footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .navbar-brand{
+    margin-left: 40px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px ;
+}
+nav ul a{
+    margin-right: 16px ;
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    margin-top: 50px;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.table th {
+    background-color:rgb(57, 55, 55);
+    color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: left;
+    padding: 10px;
+}
+
+/* .table tr {
+    
+} */
+
+.table th {
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
